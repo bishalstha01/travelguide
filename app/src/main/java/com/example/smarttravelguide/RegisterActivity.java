@@ -7,12 +7,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class SigningPage extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signing_page);
+        setContentView(R.layout.activity_register);
         final EditText ed1 = (EditText)findViewById(R.id.name);
         final EditText ed2 = (EditText)findViewById(R.id.email);
         final EditText ed3 = (EditText)findViewById(R.id.username);
